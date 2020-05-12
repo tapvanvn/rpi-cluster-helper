@@ -176,15 +176,21 @@ set_namespace
 sudo chmod +x $DIR/fix-debian.sh
 sudo bash $DIR/fix-debian.sh
 
+
 if [ $is_master = 1 ]; then 
     echo "setting up master"
     set_master
 fi
+
+sudo cp $DIR/superscript /etc/init.d/
+sudo chmod 755 /etc/init.d/superscript
+sudo update-rc.d superscript defaults
 
 #uncomment this if u want to auto expand partition to full fill the sdcard's space.
 #raspi-config --expand-rootfs > /dev/null
 
 #uncomment the line below to remove rpi-cluster helper after setup
 #sudo rm -rf $DIR
+
 
 sudo reboot
