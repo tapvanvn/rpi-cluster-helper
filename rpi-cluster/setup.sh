@@ -173,7 +173,8 @@ fi
 
 set_namespace
 
-sudo bash $DIR/fix_debian.sh
+sudo chmod +x $DIR/fix-debian.sh
+sudo bash $DIR/fix-debian.sh
 
 if [ $is_master = 1 ]; then 
     echo "setting up master"
