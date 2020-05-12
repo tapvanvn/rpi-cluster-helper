@@ -187,4 +187,4 @@ fi
 #uncomment the line below to remove rpi-cluster helper after setup
 #sudo rm -rf $DIR
 
-exit
+sudo reboot

@@ -4,7 +4,7 @@ This is a bundle of scripts that could help to setup raspberry pi kubernetes clu
 ## Using
 After clone or download this bundle, you should may go to rpi-cluster, clone cluster-info-template.txt and rename it to cluster-info.txt. 
 
-Open cluster-info.txt and modify it follow the format  <PI-MAC-ADDRESS> <HOSTNAME> for each raspberry board in your cluster per line. Dont forget add an empty line at the end of file. (Note: if hostname contains 'master' word, that pi will be known at master node)
+Open cluster-info.txt and modify it follow the format  <PI-MAC-ADDRESS> <hostname> for each raspberry board in your cluster per line. Dont forget add an empty line at the end of file. (Note: if hostname contains 'master' word, that pi will be known at master node) . Mac-address must be uppercase format.
 
 With each sdcard you will first burn rasbian in it before flug in your computer and do the following steps.
 
