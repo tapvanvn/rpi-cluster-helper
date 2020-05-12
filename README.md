@@ -30,6 +30,7 @@ Basicly this script will
 5. Fix network issue by use iftable-legacy by execute fix-debian.sh (I found in the internet)
 6. Install kubeadm kubelet kubectl
 7. If this pi is defined as master. init master by using command 'kubeadm init --pod-network-cidr=10.244.0.0/16'. (You shouldn't modify this ip subnet if you are not sure about it.). Setup Flannel as network overlay plugin.
+8. add a superscript that will running when system started and fix the forward blocked problem.
 
 
 ## What will script not do
