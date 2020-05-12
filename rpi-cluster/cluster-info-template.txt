@@ -1,0 +1,2 @@
+DC:XX:XXXX:XX:XX k8s-master
+DC:XX:YY:YY:YY:YY k8s-worker1
